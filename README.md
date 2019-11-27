@@ -2,6 +2,8 @@
 
 使用[开箱即用的代码提交规范](https://juejin.im/post/5ddc7baa6fb9a07ab07f661e)的一个示例
 生成的changelog有点问题
+
+https://zhuanlan.zhihu.com/p/51894196
 ## Project setup
 ```
 yarn install
