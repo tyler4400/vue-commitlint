@@ -95,10 +95,21 @@
 </template>
 
 <script>
+// import consola from "consola/src/node";
+// import consola from "consola/src/browser";
+import consola from "consola";
+// const consola = require("consola");
 export default {
   name: "HelloWorld",
   props: {
     msg: String
+  },
+  created() {
+    // See types section for all available types
+    consola.start("Starting build");
+    consola.success("Built!");
+    consola.info("Reporter: Some info");
+    consola.error(new Error("Foo"));
   }
 };
 </script>

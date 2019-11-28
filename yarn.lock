@@ -3017,6 +3017,11 @@ connect-history-api-fallback@^1.6.0:
   resolved "https://registry.npm.taobao.org/connect-history-api-fallback/download/connect-history-api-fallback-1.6.0.tgz#8b32089359308d111115d81cad3fceab888f97bc"
   integrity sha1-izIIk1kwjRERFdgcrT/Oq4iPl7w=
 
+consola@^2.11.0:
+  version "2.11.0"
+  resolved "https://registry.npmjs.org/consola/-/consola-2.11.0.tgz#9bb35d850d8cecde894ce2eb4d792fa6b90d9013"
+  integrity sha512-2bcAqHastlPSCvZ+ur8bgHInGAWvUnysWz3h3xRX+/XZoCY7avolJJnVXOPGoVoyCcg1b231XixonoArmgxaoA==
+
 console-browserify@^1.1.0:
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/console-browserify/download/console-browserify-1.2.0.tgz#67063cef57ceb6cf4993a2ab3a55840ae8c49336"
@@ -10843,6 +10848,11 @@ vue-loader@^15.7.0:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-pretty-logger@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.npmjs.org/vue-pretty-logger/-/vue-pretty-logger-0.9.0.tgz#e38c120f7e913b156f650587bb629d60a70e27f6"
+  integrity sha1-44wSD36ROxVvZQWHu2KdYKcOJ/Y=
 
 vue-router@^3.1.3:
   version "3.1.3"
