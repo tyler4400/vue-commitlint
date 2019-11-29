@@ -12,7 +12,9 @@
 然后使用了[vue-pretty-logger](https://github.com/TaroXin/vue-pretty-logger)，看起来很不错，然而发现局限也很大，且华而不实。
 
 
-
+下面两个可以让整个网页可编辑，不用审查元素
+ document.designMode = 'on'
+ document.body.contentEditable = true;
 ## Project setup
 ```
 yarn install
