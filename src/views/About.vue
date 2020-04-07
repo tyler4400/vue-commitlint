@@ -4,7 +4,7 @@
   </div>
 </template>
 <script>
-import "./test";
+// import "./test";
 export default {
   created() {
     // eslint-disable-next-line no-unused-vars

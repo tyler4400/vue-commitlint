@@ -3,7 +3,7 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import lodash from "lodash";
-import "./rewriteConsle";
+import "./newConsle.js";
 Vue.config.productionTip = false;
 
 Object.defineProperty(Vue.prototype, "$_", {

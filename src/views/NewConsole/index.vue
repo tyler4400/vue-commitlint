@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+    <img alt="Vue logo" src="@/assets/logo.png" />
     <p><span class="log">2019/11/28 下午3:50:39</span></p>
     <p><span class="info">2019/11/28 下午3:50:39</span></p>
     <p><span class="warn">2019/11/28 下午3:50:39</span></p>
