@@ -1,14 +1,14 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
+import NewConsole from "../views/NewConsole";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "home",
-    component: Home
+    name: "重写console对象",
+    component: NewConsole
   },
   {
     path: "/about",
@@ -24,5 +24,5 @@ const routes = [
 const router = new VueRouter({
   routes
 });
-
+export { routes };
 export default router;

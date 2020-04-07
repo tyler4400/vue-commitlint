@@ -1,13 +1,25 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view />
+    <div id="nav">
+      <ul>
+        <li v-for="(route, index) in routes" :key="index">
+          <router-link :to="route.path">{{ route.name }}</router-link>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
-
+<script>
+import { routes } from "./router";
+export default {
+  data() {
+    return {
+      routes
+    };
+  }
+};
+</script>
 <style lang="scss">
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
@@ -19,7 +31,7 @@
 
 #nav {
   padding: 30px;
-
+  text-align: left;
   a {
     font-weight: bold;
     color: #2c3e50;
