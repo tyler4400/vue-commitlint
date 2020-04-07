@@ -2,6 +2,10 @@
 ##  重写console
 src/views/NewConsole/index.vue
 
+## vue-promise的使用
+代码： src/views/vue-promised/index.vue
+
+需要开启后台服务：node/server/index.js
 # vue-commitlint
 
 使用[开箱即用的代码提交规范](https://juejin.im/post/5ddc7baa6fb9a07ab07f661e)的一个示例
