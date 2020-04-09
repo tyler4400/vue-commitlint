@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <router-view />
     <div id="nav">
       <ul>
         <li v-for="(route, index) in routes" :key="index">
@@ -8,6 +7,7 @@
         </li>
       </ul>
     </div>
+    <router-view />
   </div>
 </template>
 <script>

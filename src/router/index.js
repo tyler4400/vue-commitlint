@@ -23,6 +23,16 @@ const routes = [
     path: "/vue-promised",
     name: "开源库vue-promised的使用",
     component: () => import("@/views/vue-promised")
+  },
+  {
+    path: "/HOC",
+    name: "高阶组件",
+    component: () => import("@/views/HOC")
+  },
+  {
+    path: "/attr&listeners",
+    name: "$attr和$listeners的使用",
+    component: () => import("@/views/grandFatherSon/grand-father")
   }
 ];
 
